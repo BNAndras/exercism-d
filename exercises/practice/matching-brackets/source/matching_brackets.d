@@ -2,7 +2,7 @@ module matching_brackets;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Paired square brackets
     assert(isPaired("[]"));

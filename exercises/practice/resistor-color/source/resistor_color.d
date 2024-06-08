@@ -2,7 +2,7 @@ module resistor_color;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Black
     assert(ResistorColor.colorCode("black") == 0);

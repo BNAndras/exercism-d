@@ -1,6 +1,6 @@
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // The sound for 1 is 1
     assert(convert(1) == "1");

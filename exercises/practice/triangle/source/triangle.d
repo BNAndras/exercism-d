@@ -16,7 +16,7 @@ unittest
 {
     import std.exception : assertThrown;
 
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // equilateral triangle - all sides are equal
     {

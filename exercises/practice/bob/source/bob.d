@@ -2,7 +2,7 @@ module bob;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Stating something
     assert(hey("Tom-ay-to, tom-aaaah-to.") == "Whatever.");

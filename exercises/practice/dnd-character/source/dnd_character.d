@@ -20,7 +20,7 @@ pure int modifier(immutable int value)
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Ability modifier for score 3 is -4
     assert(modifier(3) == -4);

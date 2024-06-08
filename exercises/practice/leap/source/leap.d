@@ -2,7 +2,7 @@ module leap;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Year not divisible by 4 in common year
     assert(!isLeap(2015));

@@ -15,7 +15,7 @@ class RobotSimulator
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Create robot at origin facing north
     {

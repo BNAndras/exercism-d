@@ -10,7 +10,7 @@ class ResistorColorDuo
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Brown and black
     assert(ResistorColorDuo.value(["brown", "black"]) == 10);

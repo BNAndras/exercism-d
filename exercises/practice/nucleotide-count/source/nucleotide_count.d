@@ -19,7 +19,7 @@ unittest
         return equal!("a.key == b.key && a.value == b.value")(lhs_pairs, rhs_pairs);
     }
 
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Empty strand
     {

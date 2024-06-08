@@ -7,7 +7,7 @@ string abbreviate(immutable string phrase)
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Basic abbreviation
     {

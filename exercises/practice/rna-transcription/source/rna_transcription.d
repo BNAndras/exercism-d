@@ -4,7 +4,7 @@ unittest
 {
     import std.exception : assertThrown;
 
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Empty RNA sequence
     assert(toRna("") == "");

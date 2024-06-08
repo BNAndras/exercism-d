@@ -58,7 +58,7 @@ unittest
 {
     import std.math : isClose;
 
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Age on Earth
     {

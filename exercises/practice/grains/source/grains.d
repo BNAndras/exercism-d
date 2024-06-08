@@ -4,7 +4,7 @@ unittest
 {
     import std.exception : assertThrown;
 
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Returns the number of grains on the square
     assert(square(1) == 1);

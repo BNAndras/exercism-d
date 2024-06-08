@@ -4,7 +4,7 @@ import std.datetime;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Date only specification of time
     assert(add(DateTime(2011, 4, 25)) == DateTime(2043, 1, 1, 1, 46, 40));

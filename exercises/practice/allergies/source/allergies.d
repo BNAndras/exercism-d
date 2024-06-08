@@ -20,7 +20,7 @@ class Allergies
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // testing for eggs allergy: not allergic to anything
     {

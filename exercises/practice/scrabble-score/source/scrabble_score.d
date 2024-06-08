@@ -7,7 +7,7 @@ pure int score(immutable string word)
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Lowercase letter
     assert(score("a") == 1);

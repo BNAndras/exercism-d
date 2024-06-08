@@ -7,7 +7,7 @@ pure int eggCount(immutable int number)
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // 0 eggs
     assert(eggCount(0) == 0);

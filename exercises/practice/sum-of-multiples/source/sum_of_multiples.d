@@ -2,7 +2,7 @@ module sum_of_multiples;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // No multiples within limit
     assert(calculateSum([3, 5], 1) == 0);

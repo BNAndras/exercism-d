@@ -2,7 +2,7 @@ module isogram;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Empty string
     assert(isIsogram(""));

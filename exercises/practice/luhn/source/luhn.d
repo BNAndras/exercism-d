@@ -2,7 +2,7 @@ module luhn;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Single digit strings can not be valid
     assert(!valid("1"));

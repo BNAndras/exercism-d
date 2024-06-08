@@ -2,7 +2,7 @@ module two_fer;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // No name given
     assert(twoFer() == "One for you, one for me.");

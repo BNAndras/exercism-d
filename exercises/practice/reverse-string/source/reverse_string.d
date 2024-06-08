@@ -2,7 +2,7 @@ module reverse_string;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // An empty string
     assert(reverseString("") == "");

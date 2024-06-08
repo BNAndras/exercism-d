@@ -7,7 +7,7 @@ pure int[] primes(immutable int limit)
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // no primes under two
     {

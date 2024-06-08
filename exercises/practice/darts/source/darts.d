@@ -2,7 +2,7 @@ module darts;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Missed target
     assert(score(-9, 9) == 0);

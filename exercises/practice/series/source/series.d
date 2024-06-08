@@ -6,7 +6,7 @@ unittest
 {
     import std.exception : assertThrown;
 
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // short_digits
     {

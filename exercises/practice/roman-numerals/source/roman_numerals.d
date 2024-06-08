@@ -5,7 +5,7 @@ import std.stdio;
 unittest
 {
 
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // one_yields_I
     {

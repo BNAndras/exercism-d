@@ -18,7 +18,7 @@ unittest
         return equal!("a.key == b.key && a.value == b.value")(lhsPairs, rhsPairs);
     }
 
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Single letter
     {

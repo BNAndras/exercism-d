@@ -26,7 +26,7 @@ unittest
         assert(!matchAll(theRobot.name, pattern).empty);
     }
 
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     static if (allTestsEnabled)
     {

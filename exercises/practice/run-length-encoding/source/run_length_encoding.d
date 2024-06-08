@@ -2,7 +2,7 @@ module run_length_encoding;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Run-length encode a string
 

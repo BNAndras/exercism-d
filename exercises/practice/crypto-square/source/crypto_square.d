@@ -2,7 +2,7 @@ module crypto;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // normalize_strange_characters
     {

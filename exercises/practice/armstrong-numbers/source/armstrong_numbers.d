@@ -2,7 +2,7 @@ module armstrong_numbers;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Zero is an Armstrong number
     assert(isArmstrongNumber(0));

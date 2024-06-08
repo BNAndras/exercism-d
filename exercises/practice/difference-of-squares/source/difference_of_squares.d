@@ -2,7 +2,7 @@ module difference_of_squares;
 
 unittest
 {
-    immutable int allTestsEnabled = 0;
+    immutable bool allTestsEnabled = false;
 
     // Square of sum 1
     assert(squares(1).squareOfSum == 1);
